@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Protección a los Animales</title>
+    <link rel="stylesheet" href="styles/styles_general.css">
+    <link rel="stylesheet" href="styles/styles_eventos.css">
+    <script src="scripts/script_eventos.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Protección a los Animales</h1>
+    </header>
+    <main>
+        <section class="events-header">
+            <h2>Calendario de Eventos</h2>
+            <p>Explora nuestros eventos pasados y futuros relacionados con la protección de los animales.</p>
+            <div class="filter-buttons">
+                <button onclick="mostrarEventos('futuros')">Eventos Futuros</button>
+                <button onclick="mostrarEventos('pasados')">Eventos Pasados</button>
+            </div>
+        </section>
+        <section id="events-list">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Protección de Animales. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

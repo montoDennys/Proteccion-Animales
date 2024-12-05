@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como ayudar</title>
+    <link rel="stylesheet" href="styles/styles_general.css">
+    <link rel="stylesheet" href="styles/styles_ayuda.css">
+    <script src="scripts/script_ayuda.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Proteccion a los animales</h1>
+    </header>
+    <main>
+        <section>
+            <div class="contenedor">
+                <h2>Como nos sirve tu ayuda??</h2>
+                <p>Ayudar a animales rescatados es un acto de amor que transforma vidas. Tu apoyo, ya sea adoptando, donando, siendo voluntario o difundiendo la causa, es fundamental para brindarles a estos seres una segunda oportunidad. Adoptar les permite encontrar un hogar lleno de cariño y estabilidad, mientras que las donaciones económicas o materiales aseguran que reciban atención médica, alimento y un espacio seguro para recuperarse. Ofrecer tu tiempo como voluntario marca la diferencia al cuidar de ellos, rehabilitarlos y prepararlos para la adopción. Además, compartir información sobre la importancia de la esterilización, el rescate y la adopción fomenta una sociedad más consciente y responsable. Cada pequeño gesto, desde un hogar temporal hasta una donación, contribuye a salvar vidas y garantizar un futuro lleno de esperanza para los animales más vulnerables. Tu ayuda no solo cambia su vida, sino que también enriquece la tuya, creando un impacto positivo y duradero.</p>
+                <img src="images/A1.jpg">
+            </div>
+        </section>
+        <section>
+            <div class="formulario-contenedor">
+                <h2>¡Únete para ayudar!</h2>
+                <form action="#" method="post" class="formulario">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                    
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="Tu numero de telefono" required>
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                    
+                    <label for="tipo-ayuda">¿Cómo te gustaría ayudar?</label>
+                    <select id="tipo-ayuda" name="tipo-ayuda" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="voluntario">Ser voluntario</option>
+                        <option value="donar">Donar</option>
+                        <option value="adoptar">Adoptar</option>
+                        <option value="difundir">Difundir la causa</option>
+                    </select>
+                    
+                    <label for="mensaje">Mensaje o comentario:</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Déjanos un mensaje" rows="4"></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Proteccion de Animales. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

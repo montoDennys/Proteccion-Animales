@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Protección a los Animales</title>
+    <link rel="stylesheet" href="styles/styles_general.css">
+    <link rel="stylesheet" href="styles/styles_blog.css">
+    <script src="scripts/script_blog.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Protección a los Animales</h1>
+    </header>
+    <main>
+        <section class="blog-header">
+            <h2>Blog</h2>
+            <p>Bienvenido al blog de Protección a los Animales. Aquí compartimos consejos, noticias y experiencias relacionadas con el cuidado y protección de los animales.</p>
+            <button class="add-post-btn" onclick="mostrarFormulario()">Agregar Nuevo</button>
+        </section>
+        <section class="blog-posts" id="blog-posts">
+            <article class="post">
+                <h3 class="post-title">Cómo cuidar a tu mascota en invierno</h3>
+                <p class="post-date">Publicado el: 5 de diciembre de 2024</p>
+                <p class="post-excerpt">
+                    Con el frío del invierno, es importante mantener a nuestras mascotas abrigadas y saludables. Aquí te damos algunos consejos para hacerlo.
+                </p>
+                <a href="#" class="read-more">Leer más</a>
+            </article>
+            <article class="post">
+                <h3 class="post-title">Beneficios de la adopción de animales</h3>
+                <p class="post-date">Publicado el: 30 de noviembre de 2024</p>
+                <p class="post-excerpt">
+                    Adoptar a un animal no solo cambia su vida, sino también la tuya. Descubre por qué deberías considerar la adopción hoy mismo.
+                </p>
+                <a href="#" class="read-more">Leer más</a>
+            </article>
+            <article class="post">
+                <h3 class="post-title">Importancia de la esterilización</h3>
+                <p class="post-date">Publicado el: 25 de noviembre de 2024</p>
+                <p class="post-excerpt">
+                    La esterilización es clave para controlar la población de animales abandonados. Aprende más sobre sus beneficios aquí.
+                </p>
+                <a href="#" class="read-more">Leer más</a>
+            </article>
+        </section>
+        <section id="add-post-form" class="hidden">
+            <h3>Agregar Nueva Publicación</h3>
+            <form id="postForm">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required><br>
+                <label for="excerpt">Resumen:</label>
+                <textarea id="excerpt" name="excerpt" rows="3" required></textarea><br>
+                <button type="submit">Agregar Publicación</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Protección de Animales. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
